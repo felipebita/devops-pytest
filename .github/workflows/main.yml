@@ -12,9 +12,10 @@ jobs:
     - name: Install dependencies
       run: |
         make install
-    - name: Test with Pytest
-      run: |
-        make test
     - name: Lint with Pylint
       run: |
         make lint
+    - name: Test with Pytest
+      run: |
+        make test
+
