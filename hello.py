@@ -1,6 +1,6 @@
 import click
 
-var=
+#var=
 @click.command()
 @click.option('--name')
 def marco(name):
